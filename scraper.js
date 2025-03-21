@@ -13,7 +13,7 @@ const cache_1 = require("./config/cache");
 class SatoruScraper {
     baseUrl;
     headers;
-    constructor(baseUrl = 'https://satoru.one') {
+    constructor(baseUrl = 'https://animedub.pro') {
         this.baseUrl = baseUrl;
         this.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
